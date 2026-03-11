@@ -1,0 +1,773 @@
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.csproj.AssemblyReference.cache
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.AssemblyInfoInputs.cache
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.AssemblyInfo.cs
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.csproj.CoreCompileInputs.cache
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.MvcApplicationPartsAssemblyInfo.cs
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.MvcApplicationPartsAssemblyInfo.cache
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Service.deps.json
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Service.runtimeconfig.json
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Service.exe
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\appsettings.Development.json
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\appsettings.json
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.staticwebassets.endpoints.json
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.exe
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.deps.json
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.runtimeconfig.json
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.pdb
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Azure.Core.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Azure.Identity.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.ClientModel.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Memory.Data.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Text.Json.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\CodeFirst.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Repository.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Service.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\CodeFirst.pdb
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Repository.pdb
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Service.pdb
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\scopedcss\bundle\WebApiProjectChef.styles.css
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets.build.json
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets.development.json
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets\msbuild.WebApiProjectChef.Microsoft.AspNetCore.StaticWebAssets.props
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets\msbuild.WebApiProjectChef.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets\msbuild.build.WebApiProjectChef.props
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApiProjectChef.props
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApiProjectChef.props
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets.pack.json
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiPr.54AC7089.Up2Date
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\refint\WebApiProjectChef.dll
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.pdb
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.genruntimeconfig.cache
+D:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\ref\WebApiProjectChef.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\appsettings.Development.json
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\appsettings.json
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Service.deps.json
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Service.runtimeconfig.json
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Service.exe
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.staticwebassets.endpoints.json
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.exe
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.deps.json
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.runtimeconfig.json
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.pdb
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Azure.Core.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Azure.Identity.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.ClientModel.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Formats.Asn1.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.IO.Pipelines.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Memory.Data.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Text.Json.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\CodeFirst.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Repository.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Service.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\CodeFirst.pdb
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Repository.pdb
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Service.pdb
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.csproj.AssemblyReference.cache
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\rpswa.dswa.cache.json
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.GeneratedMSBuildEditorConfig.editorconfig
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.AssemblyInfoInputs.cache
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.AssemblyInfo.cs
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.csproj.CoreCompileInputs.cache
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.MvcApplicationPartsAssemblyInfo.cs
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.MvcApplicationPartsAssemblyInfo.cache
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\rjimswa.dswa.cache.json
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\scopedcss\bundle\WebApiProjectChef.styles.css
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets.build.json
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets.build.json.cache
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets.development.json
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiPr.54AC7089.Up2Date
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\refint\WebApiProjectChef.dll
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.pdb
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.genruntimeconfig.cache
+E:\c#++\NEW\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\ref\WebApiProjectChef.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\appsettings.Development.json
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\appsettings.json
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.staticwebassets.endpoints.json
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Service.deps.json
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Service.runtimeconfig.json
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Service.exe
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.exe
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.deps.json
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.runtimeconfig.json
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.pdb
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Azure.Core.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Azure.Identity.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.OpenApi.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.ClientModel.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Drawing.Common.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Formats.Asn1.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.IO.Pipelines.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Memory.Data.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Runtime.Caching.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Security.Permissions.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Text.Json.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Windows.Extensions.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\CodeFirst.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Repository.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Service.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\CodeFirst.pdb
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Repository.pdb
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Service.pdb
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.csproj.AssemblyReference.cache
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\rpswa.dswa.cache.json
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.GeneratedMSBuildEditorConfig.editorconfig
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.AssemblyInfoInputs.cache
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.AssemblyInfo.cs
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.csproj.CoreCompileInputs.cache
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.MvcApplicationPartsAssemblyInfo.cs
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.MvcApplicationPartsAssemblyInfo.cache
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\rjimswa.dswa.cache.json
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\scopedcss\bundle\WebApiProjectChef.styles.css
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets.build.json
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets.build.json.cache
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets.development.json
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiPr.54AC7089.Up2Date
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\refint\WebApiProjectChef.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.pdb
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.genruntimeconfig.cache
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\ref\WebApiProjectChef.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\appsettings.Development.json
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\appsettings.json
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Service.deps.json
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Service.runtimeconfig.json
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Service.exe
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.staticwebassets.endpoints.json
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.exe
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.deps.json
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.runtimeconfig.json
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.pdb
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Azure.Core.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Azure.Identity.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.ClientModel.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Memory.Data.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Text.Json.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\CodeFirst.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Repository.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Service.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\CodeFirst.pdb
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Repository.pdb
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Service.pdb
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.csproj.AssemblyReference.cache
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.AssemblyInfoInputs.cache
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.AssemblyInfo.cs
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.csproj.CoreCompileInputs.cache
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.MvcApplicationPartsAssemblyInfo.cs
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.MvcApplicationPartsAssemblyInfo.cache
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\scopedcss\bundle\WebApiProjectChef.styles.css
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets.build.json
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets.development.json
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets\msbuild.WebApiProjectChef.Microsoft.AspNetCore.StaticWebAssets.props
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets\msbuild.WebApiProjectChef.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets\msbuild.build.WebApiProjectChef.props
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApiProjectChef.props
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApiProjectChef.props
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets.pack.json
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiPr.54AC7089.Up2Date
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\refint\WebApiProjectChef.dll
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.pdb
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.genruntimeconfig.cache
+D:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\ref\WebApiProjectChef.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.csproj.AssemblyReference.cache
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.GeneratedMSBuildEditorConfig.editorconfig
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.AssemblyInfoInputs.cache
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.AssemblyInfo.cs
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.csproj.CoreCompileInputs.cache
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.MvcApplicationPartsAssemblyInfo.cs
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.MvcApplicationPartsAssemblyInfo.cache
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\refint\WebApiProjectChef.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.pdb
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\appsettings.Development.json
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\appsettings.json
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Service.deps.json
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Service.runtimeconfig.json
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Service.exe
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.staticwebassets.endpoints.json
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.exe
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.deps.json
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.runtimeconfig.json
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.pdb
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Azure.Core.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Azure.Identity.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Humanizer.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.ClientModel.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.CodeDom.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Formats.Asn1.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.IO.Pipelines.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Memory.Data.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Text.Json.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\CodeFirst.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Repository.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Service.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\CodeFirst.pdb
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Repository.pdb
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Service.pdb
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\scopedcss\bundle\WebApiProjectChef.styles.css
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets.build.json
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets.development.json
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiPr.54AC7089.Up2Date
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.genruntimeconfig.cache
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\ref\WebApiProjectChef.dll
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets\msbuild.WebApiProjectChef.Microsoft.AspNetCore.StaticWebAssets.props
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets\msbuild.WebApiProjectChef.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets\msbuild.build.WebApiProjectChef.props
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApiProjectChef.props
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApiProjectChef.props
+E:\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets.pack.json
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.csproj.AssemblyReference.cache
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.GeneratedMSBuildEditorConfig.editorconfig
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.AssemblyInfoInputs.cache
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.AssemblyInfo.cs
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.csproj.CoreCompileInputs.cache
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.MvcApplicationPartsAssemblyInfo.cache
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Service.deps.json
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Service.runtimeconfig.json
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Service.exe
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\appsettings.Development.json
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\appsettings.json
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.staticwebassets.endpoints.json
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.exe
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.deps.json
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.runtimeconfig.json
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\WebApiProjectChef.pdb
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Azure.Core.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Azure.Identity.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Google.Apis.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Google.Apis.Auth.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Google.Apis.Core.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Google.GenAI.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Humanizer.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.AI.Abstractions.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.ClientModel.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.CodeDom.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Management.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Memory.Data.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Text.Json.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Management.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\CodeFirst.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Repository.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Service.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\CodeFirst.pdb
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Repository.pdb
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\Service.pdb
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\scopedcss\bundle\WebApiProjectChef.styles.css
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets.build.json
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets.development.json
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets\msbuild.WebApiProjectChef.Microsoft.AspNetCore.StaticWebAssets.props
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets\msbuild.WebApiProjectChef.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets\msbuild.build.WebApiProjectChef.props
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApiProjectChef.props
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApiProjectChef.props
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets.pack.json
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiPr.54AC7089.Up2Date
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\refint\WebApiProjectChef.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.pdb
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.genruntimeconfig.cache
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\ref\WebApiProjectChef.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\AutoMapper.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.MvcApplicationPartsAssemblyInfo.cs

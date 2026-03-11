@@ -1,0 +1,72 @@
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+D:\c#++\NEW\WebApiProjectChef\Repository\bin\Debug\net8.0\Repository.deps.json
+D:\c#++\NEW\WebApiProjectChef\Repository\bin\Debug\net8.0\Repository.dll
+D:\c#++\NEW\WebApiProjectChef\Repository\bin\Debug\net8.0\Repository.pdb
+D:\c#++\NEW\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#++\NEW\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+D:\c#++\NEW\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+D:\c#++\NEW\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+D:\c#++\NEW\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.dll
+D:\c#++\NEW\WebApiProjectChef\Repository\obj\Debug\net8.0\refint\Repository.dll
+D:\c#++\NEW\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.pdb
+D:\c#++\NEW\WebApiProjectChef\Repository\obj\Debug\net8.0\ref\Repository.dll
+E:\c#++\NEW\WebApiProjectChef\Repository\bin\Debug\net8.0\Repository.deps.json
+E:\c#++\NEW\WebApiProjectChef\Repository\bin\Debug\net8.0\Repository.dll
+E:\c#++\NEW\WebApiProjectChef\Repository\bin\Debug\net8.0\Repository.pdb
+E:\c#++\NEW\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\c#++\NEW\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+E:\c#++\NEW\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+E:\c#++\NEW\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+E:\c#++\NEW\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.dll
+E:\c#++\NEW\WebApiProjectChef\Repository\obj\Debug\net8.0\refint\Repository.dll
+E:\c#++\NEW\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.pdb
+E:\c#++\NEW\WebApiProjectChef\Repository\obj\Debug\net8.0\ref\Repository.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\Repository\bin\Debug\net8.0\Repository.deps.json
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\Repository\bin\Debug\net8.0\Repository.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\Repository\bin\Debug\net8.0\Repository.pdb
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\Repository\obj\Debug\net8.0\refint\Repository.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.pdb
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\Repository\obj\Debug\net8.0\ref\Repository.dll
+D:\c#++\new2\WebApiProjectChef\Repository\bin\Debug\net8.0\Repository.deps.json
+D:\c#++\new2\WebApiProjectChef\Repository\bin\Debug\net8.0\Repository.dll
+D:\c#++\new2\WebApiProjectChef\Repository\bin\Debug\net8.0\Repository.pdb
+D:\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+D:\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+D:\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+D:\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.dll
+D:\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\refint\Repository.dll
+D:\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.pdb
+D:\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\ref\Repository.dll
+E:\c#++\new2\WebApiProjectChef\Repository\bin\Debug\net8.0\Repository.deps.json
+E:\c#++\new2\WebApiProjectChef\Repository\bin\Debug\net8.0\Repository.dll
+E:\c#++\new2\WebApiProjectChef\Repository\bin\Debug\net8.0\Repository.pdb
+E:\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.csproj.AssemblyReference.cache
+E:\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+E:\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+E:\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+E:\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.dll
+E:\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\refint\Repository.dll
+E:\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.pdb
+E:\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\ref\Repository.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\Repository\bin\Debug\net8.0\Repository.deps.json
+C:\studies\second year\c#++\new2\WebApiProjectChef\Repository\bin\Debug\net8.0\Repository.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\Repository\bin\Debug\net8.0\Repository.pdb
+C:\studies\second year\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.csproj.AssemblyReference.cache
+C:\studies\second year\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\studies\second year\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+C:\studies\second year\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+C:\studies\second year\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+C:\studies\second year\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\refint\Repository.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.pdb
+C:\studies\second year\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\ref\Repository.dll

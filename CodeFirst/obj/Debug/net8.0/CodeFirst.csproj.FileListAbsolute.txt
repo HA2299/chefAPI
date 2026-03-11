@@ -1,0 +1,107 @@
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.csproj.AssemblyReference.cache
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.GeneratedMSBuildEditorConfig.editorconfig
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.AssemblyInfoInputs.cache
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.AssemblyInfo.cs
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.csproj.CoreCompileInputs.cache
+D:\c#++\NEW\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\CodeFirst.deps.json
+D:\c#++\NEW\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\CodeFirst.runtimeconfig.json
+D:\c#++\NEW\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\CodeFirst.dll
+D:\c#++\NEW\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\CodeFirst.pdb
+D:\c#++\NEW\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\Repository.dll
+D:\c#++\NEW\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\Repository.pdb
+D:\c#++\NEW\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.csproj.AssemblyReference.cache
+D:\c#++\NEW\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#++\NEW\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.AssemblyInfoInputs.cache
+D:\c#++\NEW\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.AssemblyInfo.cs
+D:\c#++\NEW\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.csproj.CoreCompileInputs.cache
+D:\c#++\NEW\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.csproj.Up2Date
+D:\c#++\NEW\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.dll
+D:\c#++\NEW\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\refint\CodeFirst.dll
+D:\c#++\NEW\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.pdb
+D:\c#++\NEW\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.genruntimeconfig.cache
+D:\c#++\NEW\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\ref\CodeFirst.dll
+E:\c#++\NEW\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\CodeFirst.deps.json
+E:\c#++\NEW\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\CodeFirst.runtimeconfig.json
+E:\c#++\NEW\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\CodeFirst.dll
+E:\c#++\NEW\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\CodeFirst.pdb
+E:\c#++\NEW\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\Repository.dll
+E:\c#++\NEW\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\Repository.pdb
+E:\c#++\NEW\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.csproj.AssemblyReference.cache
+E:\c#++\NEW\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.GeneratedMSBuildEditorConfig.editorconfig
+E:\c#++\NEW\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.AssemblyInfoInputs.cache
+E:\c#++\NEW\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.AssemblyInfo.cs
+E:\c#++\NEW\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.csproj.CoreCompileInputs.cache
+E:\c#++\NEW\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.csproj.Up2Date
+E:\c#++\NEW\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.dll
+E:\c#++\NEW\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\refint\CodeFirst.dll
+E:\c#++\NEW\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.pdb
+E:\c#++\NEW\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.genruntimeconfig.cache
+E:\c#++\NEW\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\ref\CodeFirst.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\CodeFirst.deps.json
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\CodeFirst.runtimeconfig.json
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\CodeFirst.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\CodeFirst.pdb
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\Repository.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\Repository.pdb
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.csproj.AssemblyReference.cache
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.GeneratedMSBuildEditorConfig.editorconfig
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.AssemblyInfoInputs.cache
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.AssemblyInfo.cs
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.csproj.CoreCompileInputs.cache
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.csproj.Up2Date
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\refint\CodeFirst.dll
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.pdb
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.genruntimeconfig.cache
+L:\שנה ב\Ai\c#++\תלמידות\הודיה אברהם\new\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\ref\CodeFirst.dll
+D:\c#++\new2\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\CodeFirst.deps.json
+D:\c#++\new2\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\CodeFirst.runtimeconfig.json
+D:\c#++\new2\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\CodeFirst.dll
+D:\c#++\new2\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\CodeFirst.pdb
+D:\c#++\new2\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\Repository.dll
+D:\c#++\new2\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\Repository.pdb
+D:\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.csproj.AssemblyReference.cache
+D:\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.AssemblyInfoInputs.cache
+D:\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.AssemblyInfo.cs
+D:\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.csproj.CoreCompileInputs.cache
+D:\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.csproj.Up2Date
+D:\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.dll
+D:\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\refint\CodeFirst.dll
+D:\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.pdb
+D:\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.genruntimeconfig.cache
+D:\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\ref\CodeFirst.dll
+E:\c#++\new2\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\CodeFirst.deps.json
+E:\c#++\new2\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\CodeFirst.runtimeconfig.json
+E:\c#++\new2\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\CodeFirst.dll
+E:\c#++\new2\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\CodeFirst.pdb
+E:\c#++\new2\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\Repository.dll
+E:\c#++\new2\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\Repository.pdb
+E:\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.csproj.AssemblyReference.cache
+E:\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.GeneratedMSBuildEditorConfig.editorconfig
+E:\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.AssemblyInfoInputs.cache
+E:\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.AssemblyInfo.cs
+E:\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.csproj.CoreCompileInputs.cache
+E:\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.csproj.Up2Date
+E:\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.dll
+E:\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\refint\CodeFirst.dll
+E:\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.pdb
+E:\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.genruntimeconfig.cache
+E:\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\ref\CodeFirst.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\CodeFirst.deps.json
+C:\studies\second year\c#++\new2\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\CodeFirst.runtimeconfig.json
+C:\studies\second year\c#++\new2\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\CodeFirst.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\CodeFirst.pdb
+C:\studies\second year\c#++\new2\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\Repository.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\Repository.pdb
+C:\studies\second year\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.csproj.AssemblyReference.cache
+C:\studies\second year\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.GeneratedMSBuildEditorConfig.editorconfig
+C:\studies\second year\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.AssemblyInfoInputs.cache
+C:\studies\second year\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.AssemblyInfo.cs
+C:\studies\second year\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.csproj.CoreCompileInputs.cache
+C:\studies\second year\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.csproj.Up2Date
+C:\studies\second year\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\refint\CodeFirst.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.pdb
+C:\studies\second year\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.genruntimeconfig.cache
+C:\studies\second year\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\ref\CodeFirst.dll
