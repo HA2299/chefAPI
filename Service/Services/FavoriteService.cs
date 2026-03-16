@@ -16,30 +16,29 @@ namespace Service.Services
         {
             this.repository = repository;
         }
-        public Favorite AddItem(Favorite item)
+        public async Task<Favorite> AddItemAsync(Favorite item)
         {
-
-            return repository.AddItem(item);
+            return await repository.AddItemAsync(item);
         }
 
-        public void DeleteItem(int id)
+        public async Task DeleteItemAsync(int id)
         {
-            repository.DeleteItem(id);
+            await repository.DeleteItemAsync(id);
         }
 
-        public List<Favorite> GetAll()
+        public async Task<List<Favorite>> GetAllAsync()
         {
-            return repository.GetAll();
+            return await repository.GetAllAsync();
         }
 
-        public Favorite GetById(int id)
+        public async Task<Favorite> GetByIdAsync(int id)
         {
-            return repository.GetById(id);
+            return await repository.GetByIdAsync(id);
         }
 
-        public void UpdateItem(int id, Favorite item)
+        public async Task UpdateItemAsync(int id, Favorite item)
         {
-            repository.UpdateItem(id, item);
+            await repository.UpdateItemAsync(id, item);
        }
    }
 }

@@ -13,35 +13,35 @@ namespace Service.Services
     {
         private readonly IRepository<Ingredient> repository = repository;
 
-        public Ingredient AddItem(Ingredient item)
+        public Task<Ingredient> AddItemAsync(Ingredient item)
         {
 
-            return repository.AddItem(item);
+            return repository.AddItemAsync(item);
         }
 
-        public void DeleteItem(int id)
+        public Task DeleteItemAsync(int id)
         {
-            repository.DeleteItem(id);
+            return repository.DeleteItemAsync(id);
         }
 
-        public List<Ingredient> GetAll()
+        public Task<List<Ingredient>> GetAllAsync()
         {
-            return repository.GetAll();
+            return repository.GetAllAsync();
         }
 
-        public Ingredient GetById(int id)
+        public Task<Ingredient> GetByIdAsync(int id)
         {
-            return repository.GetById(id);
+            return repository.GetByIdAsync(id);
         }
         
-        public Ingredient GetByName(string name)
+        public Task<Ingredient> GetByNameAsync(string name)
         {
-            return repository.GetByName(name);
+            return repository.GetByNameAsync(name);
         }
 
-        public void UpdateItem(int id, Ingredient item)
+        public Task UpdateItemAsync(int id, Ingredient item)
         {
-            repository.UpdateItem(id, item);
+            return repository.UpdateItemAsync(id, item);
         }
     }
 }

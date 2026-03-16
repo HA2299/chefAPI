@@ -3,7 +3,7 @@ using Service.Dto;
 
 public interface ILogin
 {
-    User Authenticate(UserLogin user);
-    bool Register(UserRegister userRegister);
-    User GetUserByToken(string token); 
+    Task<User> Authenticate(UserLogin user);
+    Task<bool> Register(UserRegister userRegister);
+    Task<User> GetUserByToken(string token); 
 }

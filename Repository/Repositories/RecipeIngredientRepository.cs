@@ -14,33 +14,32 @@ namespace Repository.Repositories
 
         private readonly IContext _context = context;
 
-        public RecipeIngredient AddItem(RecipeIngredient item)
+        public async Task<RecipeIngredient> AddItemAsync(RecipeIngredient item)
         {
-            _context.RecipeIngredients.Add(item);
-
-            _context.Save();
+            await _context.RecipeIngredients.AddAsync(item);
+            await _context.Save();
             return item;
         }
 
-        public void DeleteItem(int id)
+        public async Task DeleteItemAsync(int id)
         {
-            _context.RecipeIngredients.Remove(GetById(id));
-            _context.Save();
+            _context.RecipeIngredients.Remove(await GetByIdAsync(id));
+            await _context.Save();
         }
 
-        public List<RecipeIngredient> GetAll()
+        public async Task<List<RecipeIngredient>> GetAllAsync()
         {
-            return (List<RecipeIngredient>)_context.RecipeIngredients.Include(x => x.Ingredient).ToList();
+            return await _context.RecipeIngredients.Include(x => x.Ingredient).ToListAsync();
         }
 
-        public RecipeIngredient GetById(int id)
+        public async Task<RecipeIngredient> GetByIdAsync(int id)
         {
-            return _context.RecipeIngredients.ToList().FirstOrDefault(x => x.Id == id);
+            return await _context.RecipeIngredients.SingleAsync(x => x.Id == id);
         }
 
-        public void UpdateItem(int id, RecipeIngredient item)
+        public async Task UpdateItemAsync(int id, RecipeIngredient item)
         {
-            var RecipeIngredient = GetById(id);
+            var RecipeIngredient =  await GetByIdAsync(id);
             RecipeIngredient.Id = item.Id;
             RecipeIngredient.RecipeId = item.RecipeId;
             RecipeIngredient.Recipe = item.Recipe;
@@ -48,7 +47,7 @@ namespace Repository.Repositories
             RecipeIngredient.Ingredient= item.Ingredient;
             RecipeIngredient.Quantity = item.Quantity;
             RecipeIngredient.Unit = item.Unit;
-            _context.Save();
+            await _context.Save();
         }
     }
 }

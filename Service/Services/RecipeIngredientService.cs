@@ -14,41 +14,41 @@ namespace Service.Services
     {
         private readonly IRepository<RecipeIngredient> repository = repository;
        
-        public RecipeIngredient AddItem(RecipeIngredient ingredient)
+        public async Task<RecipeIngredient> AddItemAsync(RecipeIngredient ingredient)
         {
-            Console.WriteLine(ingredient.Unit);
             if (!Enum.IsDefined(typeof(UnitType), ingredient.Unit))
             {
                 throw new ArgumentException("Invalid unit type.");
             }
 
-            return repository.AddItem(ingredient);
+            return await repository.AddItemAsync(ingredient);
         }
 
 
-        public void DeleteItem(int id)
+        public async Task DeleteItemAsync(int id)
         {
-            repository.DeleteItem(id);
+            await repository.DeleteItemAsync(id);
         }
 
-        public List<RecipeIngredient> GetAll()
+        public async Task<List<RecipeIngredient>> GetAllAsync()
         {
-            return repository.GetAll();
+            return await repository.GetAllAsync();
         }
 
-        public RecipeIngredient GetById(int id)
+        public async Task<RecipeIngredient> GetByIdAsync(int id)
         {
-            return repository.GetById(id);
+            return await repository.GetByIdAsync(id);
         }
 
-        public List<RecipeIngredient> GetByRecipeId(int recipeId)
+        public async Task<List<RecipeIngredient>> GetByRecipeIdAsync(int recipeId)
         {
-            return repository.GetAll().Where(ri => ri.RecipeId == recipeId).ToList();
+            var recipeIngredients= await repository.GetAllAsync();
+            return recipeIngredients.Where(ri => ri.RecipeId == recipeId).ToList();
         }
 
-        public void UpdateItem(int id, RecipeIngredient item)
+        public async Task UpdateItemAsync(int id, RecipeIngredient item)
         {
-            repository.UpdateItem(id, item);
+            await repository.UpdateItemAsync(id, item);
         }
 
     }

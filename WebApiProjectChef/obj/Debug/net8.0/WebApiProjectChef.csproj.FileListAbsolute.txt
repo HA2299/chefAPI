@@ -771,3 +771,4 @@ C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\n
 C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\ref\WebApiProjectChef.dll
 C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\bin\Debug\net8.0\AutoMapper.dll
 C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.MvcApplicationPartsAssemblyInfo.cs
+C:\studies\second year\c#++\new2\WebApiProjectChef\WebApiProjectChef\obj\Debug\net8.0\WebApiProjectChef.sourcelink.json

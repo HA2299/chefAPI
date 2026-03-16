@@ -13,30 +13,30 @@ namespace Service.Services
     {
         private readonly IRepository<Category> repository = repository;
 
-        public Category AddItem(Category item)
+        public Task<Category> AddItemAsync(Category item)
         {
 
-            return repository.AddItem(item);
+            return repository.AddItemAsync(item);
         }
 
-        public void DeleteItem(int id)
+        public Task DeleteItemAsync(int id)
         {
-            repository.DeleteItem(id);
+            return repository.DeleteItemAsync(id);
         }
 
-        public List<Category> GetAll()
+        public Task<List<Category>> GetAllAsync()
         {
-            return repository.GetAll();
+            return repository.GetAllAsync();
         }
 
-        public Category GetById(int id)
+        public Task<Category> GetByIdAsync(int id)
         {
-           return repository.GetById(id);
+           return repository.GetByIdAsync(id);
         }
 
-        public void UpdateItem(int id, Category item)
+        public Task UpdateItemAsync(int id, Category item)
         {
-            repository.UpdateItem(id, item);
+           return repository.UpdateItemAsync(id, item);
         }
     }
 }

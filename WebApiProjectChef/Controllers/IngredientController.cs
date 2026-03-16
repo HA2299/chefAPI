@@ -14,37 +14,37 @@ namespace WebApiProjectChef.Controllers
 
         // GET: api/<IngredientController>
         [HttpGet]
-        public List<Ingredient> Get()
+        public async Task<List<Ingredient>> Get()
         {
-            return service.GetAll();
+            return await service.GetAllAsync();
         }
 
         // GET api/<IngredientController>/5
         [HttpGet("{id}")]
-        public Ingredient Get(int id)
+        public async Task<Ingredient> Get(int id)
         {
-            return service.GetById(id);
+            return await service.GetByIdAsync(id);
         }
 
         // POST api/<IngredientController>
         [HttpPost]
-        public Ingredient Post([FromBody] Ingredient value)
+        public async Task<Ingredient> Post([FromBody] Ingredient value)
         {
-            return service.AddItem(value);
+            return await service.AddItemAsync(value);
         }
 
         // PUT api/<IngredientController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] Ingredient value)
+        public async Task Put(int id, [FromBody] Ingredient value)
         {
-            service.UpdateItem(id, value);
+            await service.UpdateItemAsync(id, value);
         }
 
         // DELETE api/<IngredientController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task Delete(int id)
         {
-            service.DeleteItem(id);
+            await service.DeleteItemAsync(id);
         }
     }
 }

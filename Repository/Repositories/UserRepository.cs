@@ -1,4 +1,5 @@
-﻿using Repository.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using Repository.Entities;
 using Repository.interfaces;
 using Service.Interfaces;
 using System;
@@ -18,43 +19,43 @@ namespace Repository.Repositories
             _context = context;
         }
 
-        public User AddItem(User item)
+        public async Task<User> AddItemAsync(User item)
         {
-            _context.Users.Add(item);
-            _context.Save();
+            await _context.Users.AddAsync(item);
+            await _context.Save();
             return item;
         }
 
-        public void DeleteItem(int id)
+        public async Task DeleteItemAsync(int id)
         {
-            _context.Users.Remove(GetById(id));
-            _context.Save();
+            _context.Users.Remove(await GetByIdAsync(id));
+            await _context.Save();
         }
 
-        public List<User> GetAll()
+        public async Task<List<User>> GetAllAsync()
         {
-            return _context.Users.ToList();
+            return await _context.Users.ToListAsync();
         }
 
-        public User GetById(int id)
+        public async Task<User> GetByIdAsync(int id)
         {
-            return _context.Users.ToList().FirstOrDefault(x => x.Id == id);
+            return await _context.Users.SingleAsync(x => x.Id == id);
         }
 
-        public User GetByEmail(string email)
+        public async Task<User> GetByEmailAsync(string email)
         {
-            return _context.Users.ToList().FirstOrDefault(x => x.Email == email);
+            return await _context.Users.SingleAsync(x=>x.Email == email);
         }
 
-        public void UpdateItem(int id, User item)
+        public async Task UpdateItemAsync(int id, User item)
         {
-            var user = GetById(id);
+            var user = await GetByIdAsync(id);
             user.Id = item.Id;
             user.Name = item.Name;
             user.Email = item.Email;
             user.Password = item.Password;
             user.Role = item.Role;
-            _context.Save();
+            await _context.Save();
         }
     }
 }

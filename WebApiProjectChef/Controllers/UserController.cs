@@ -14,43 +14,44 @@ namespace WebApiProjectChef.Controllers
 
         // GET: api/<UserController>
         [HttpGet]
-        public List<User> Get()
+        public async Task<List<User>> Get()
         {
-            return service.GetAll();
+            return await service.GetAllAsync();
         }
 
         // GET api/<UserController>/5
         [HttpGet("{id}")]
-        public User Get(int id)
+        public async Task<User> Get(int id)
         {
-            return service.GetById(id);
+            return await service.GetByIdAsync(id);
         }
 
         // POST api/<UserController>
         [HttpPost]
-        public User Post([FromBody] User value)
+        public async Task<User> Post([FromBody] User value)
         {
-            return service.AddItem(value);
+            return await service.AddItemAsync(value);
         }
 
         // PUT api/<UserController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] User value)
+        public async Task Put(int id, [FromBody] User value)
         {
-            service.UpdateItem(id, value);
+            await service.UpdateItemAsync(id, value);
         }
 
         // DELETE api/<UserController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task Delete(int id)
         {
-            service.DeleteItem(id);
+            await service.DeleteItemAsync(id);
         }
 
         [HttpGet("count")]
-        public int GetUserCount()
+        public async Task<int> GetUserCount()
         {
-            return service.GetAll().Count; 
+            var users = await service.GetAllAsync();
+            return users.Count; 
         }
     }
 }

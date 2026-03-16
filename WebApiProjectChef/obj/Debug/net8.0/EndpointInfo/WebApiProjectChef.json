@@ -1028,6 +1028,9 @@
           "content": {
             "multipart/form-data": {
               "schema": {
+                "required": [
+                  "Category.Name"
+                ],
                 "type": "object",
                 "properties": {
                   "Id": {
@@ -1241,6 +1244,9 @@
           "content": {
             "multipart/form-data": {
               "schema": {
+                "required": [
+                  "Category.Name"
+                ],
                 "type": "object",
                 "properties": {
                   "Id": {
@@ -1425,6 +1431,38 @@
                 "schema": {
                   "type": "integer",
                   "format": "int32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Recipe/averageRate": {
+      "get": {
+        "tags": [
+          "Recipe"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "number",
+                  "format": "double"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "number",
+                  "format": "double"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "number",
+                  "format": "double"
                 }
               }
             }
@@ -1841,37 +1879,6 @@
         }
       }
     },
-    "/api/auth/Register": {
-      "post": {
-        "tags": [
-          "Register"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UserRegister"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UserRegister"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/UserRegister"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/api/User": {
       "get": {
         "tags": [
@@ -2132,6 +2139,9 @@
   "components": {
     "schemas": {
       "Category": {
+        "required": [
+          "name"
+        ],
         "type": "object",
         "properties": {
           "id": {
@@ -2157,6 +2167,9 @@
         "format": "int32"
       },
       "Chef": {
+        "required": [
+          "userId"
+        ],
         "type": "object",
         "properties": {
           "id": {
@@ -2304,6 +2317,9 @@
         "additionalProperties": false
       },
       "Recipe": {
+        "required": [
+          "chefId"
+        ],
         "type": "object",
         "properties": {
           "id": {
@@ -2315,6 +2331,7 @@
             "nullable": true
           },
           "description": {
+            "maxLength": 50,
             "type": "string",
             "nullable": true
           },
@@ -2451,6 +2468,10 @@
         "additionalProperties": false
       },
       "RecipeIngredient": {
+        "required": [
+          "ingredientId",
+          "recipeId"
+        ],
         "type": "object",
         "properties": {
           "id": {

@@ -23,28 +23,27 @@ namespace Service.Services
             this.userRepository = userRepository;
         }
 
-        public User Authenticate(UserLogin user)
+        public async Task<User> Authenticate(UserLogin user)
         {
-            return _repository.GetAll().FirstOrDefault(x => x.Email == user.Email && x.Name == user.UserName);
+            var users =await _repository.GetAllAsync();
+            return users.FirstOrDefault(x => x.Email == user.Email && x.Name == user.UserName);
         }
 
-        public User GetUserByToken(string token)
+        public async Task<User> GetUserByToken(string token)
         {
-            var userId = ValidateToken(token); // שיטה שתאמת את הטוקן ותחזיר את מזהה המשתמש
+            var userId = ValidateToken(token);
 
             if (userId == null)
             {
-                return null; // טוקן לא חוקי
+                return null;
             }
-
-            // קבל את המשתמש על סמך מזהה המשתמש
-            var user = _repository.GetById(userId.Value); // הנחה: userId הוא int?
+            var user = await _repository.GetByIdAsync(userId.Value);
             return user;
         }
 
         public async Task<User> GetUserByTokenAsync(string token)
         {
-            return await Task.FromResult(GetUserByToken(token)); // קריאה לשיטה הסינכרונית
+            return await Task.FromResult(await GetUserByToken(token));
         }
 
         // שיטה לדוגמה לאימות טוקן
@@ -55,10 +54,10 @@ namespace Service.Services
             return 1; // החזר את מזהה המשתמש המתאים (כמו 1 לדוגמה)
         }
 
-        public bool Register(UserRegister userRegister)
+        public async Task<bool> Register(UserRegister userRegister)
         {
             // לוגיקת רישום משתמשים
-            var existingUser = userRepository.GetByEmail(userRegister.Email);
+            var existingUser = await userRepository.GetByEmailAsync(userRegister.Email);
             if (existingUser != null)
             {
                 return false;
@@ -72,7 +71,7 @@ namespace Service.Services
                 Role = userRegister.Role,
             };
 
-            _repository.AddItem(newUser);
+            await _repository.AddItemAsync(newUser);
             return true;
         }
 

@@ -15,39 +15,38 @@ namespace Repository.Repositories
 
         private readonly IContext _context = context;
 
-        public Chef AddItem(Chef item)
+        public async Task<Chef> AddItemAsync(Chef item)
         {
-            _context.Chefs.Add(item);
-
-            _context.Save();    
+            await _context.Chefs.AddAsync(item);
+            await _context.Save();    
             return item;
         }
 
-        public void DeleteItem(int id)
+        public async Task DeleteItemAsync(int id)
         {
-            _context.Chefs.Remove(GetById(id));
-            _context.Save();
+            _context.Chefs.Remove(await GetByIdAsync(id));
+            await _context.Save();
         }
 
-        public List<Chef> GetAll()
+        public async Task<List<Chef>> GetAllAsync()
         {
-            return (List<Chef>)_context.Chefs.Include(x=>x.User).ToList();
+            return await _context.Chefs.Include(x => x.User).ToListAsync();
         }
 
-        public Chef GetById(int id)
+        public async Task<Chef> GetByIdAsync(int id)
         {
-            return _context.Chefs.Include(x=>x.User).ToList().FirstOrDefault(x => x.Id == id);
+            return await _context.Chefs.Include(x=>x.User).SingleAsync(x=>x.Id == id);
         }
 
-        public void UpdateItem(int id, Chef item)
+        public async Task UpdateItemAsync(int id, Chef item)
         {
-            var Chef = GetById(id);
+            var Chef =  await GetByIdAsync(id);
             Chef.Id = item.Id;
             Chef.UserId = item.UserId;
             Chef.User = item.User;
             Chef.Recipes = item.Recipes;
             Chef.AverageRating= item.AverageRating;
-            _context.Save();
+            await _context.Save();
         }
 
     }

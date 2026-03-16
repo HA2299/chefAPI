@@ -17,37 +17,37 @@ namespace WebApiProjectChef.Controllers
         }
         // GET: api/<CategoryController>
         [HttpGet]
-        public List<Category> Get()
+        public async Task<List<Category>> Get()
         {
-            return service.GetAll();
+            return await service.GetAllAsync();
         }
 
         // GET api/<CategoryController>/5
         [HttpGet("{id}")]
-        public Category Get(int id)
+        public async Task<Category> Get(int id)
         {
-            return service.GetById(id);
+            return await service.GetByIdAsync(id);
         }
 
         // POST api/<CategoryController>
         [HttpPost]
-        public Category Post([FromBody] Category value)
+        public async Task<Category> Post([FromBody] Category value)
         {
-            return service.AddItem(value);
+            return await service.AddItemAsync(value);
         }
 
         // PUT api/<CategoryController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] Category value)
+        public async Task Put(int id, [FromBody] Category value)
         {
-            service.UpdateItem(id, value);
+            await service.UpdateItemAsync(id, value);
         }
 
         // DELETE api/<CategoryController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task Delete(int id)
         {
-            service.DeleteItem(id);
+            await service.DeleteItemAsync(id);
         }
     }
 }

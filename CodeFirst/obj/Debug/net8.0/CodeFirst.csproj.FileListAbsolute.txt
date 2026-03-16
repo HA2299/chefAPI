@@ -105,3 +105,4 @@ C:\studies\second year\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\re
 C:\studies\second year\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.pdb
 C:\studies\second year\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.genruntimeconfig.cache
 C:\studies\second year\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\ref\CodeFirst.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.sourcelink.json

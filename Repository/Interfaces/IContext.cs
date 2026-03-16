@@ -20,7 +20,7 @@ namespace Repository.interfaces
         public DbSet<RecipeIngredient> RecipeIngredients { get; set; }
         public DbSet<User> Users { get; set;     }
 
-        public void Save();
+        public Task Save();
     }
 
 

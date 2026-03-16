@@ -8,6 +8,6 @@ namespace Service.Interfaces
 {
     public interface IRecipe
     {
-        void AddRating(int recipeId, int ratingValue);
+        Task AddRatingAsync(int recipeId, int ratingValue);
     }
 }

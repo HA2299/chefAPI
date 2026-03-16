@@ -18,75 +18,63 @@ namespace WebApiProjectChef.Controllers
 
         // GET: api/<ChefController>
         [HttpGet]
-        public List<ChefDto> Get()
+        public async Task<List<ChefDto>> Get()
         {
-            return service.GetAll();
+            return await service.GetAllAsync();
         }
 
         // GET api/<ChefController>/5
         [HttpGet("{id}")]
-        public ChefDto Get(int id)
+        public async Task<ChefDto> Get(int id)
         {
-            return service.GetById(id);
+            return await service.GetByIdAsync(id);
         }
 
         // POST api/<ChefController>
         [HttpPost]
-        public ChefDto Post([FromBody] ChefDto value)
+        public async Task<ChefDto> Post([FromBody] ChefDto value)
         {
-            return service.AddItem(value);
+            var path = Path.Combine(Environment.CurrentDirectory, "Images/images_chefs", value.FileImage.FileName);
+            using (FileStream fs = new FileStream(path, FileMode.Create))
+            {
+                value.FileImage.CopyTo(fs);
+                fs.Close();
+            }
+            return await service.AddItemAsync(value);
         }
 
         // PUT api/<ChefController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] ChefDto value)
+        public async Task Put(int id, [FromBody] ChefDto value)
         {
-            service.UpdateItem(id, value);
+            await service.UpdateItemAsync(id, value);
         }
 
         // DELETE api/<ChefController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task Delete(int id)
         {
-            service.DeleteItem(id);
+            await service.DeleteItemAsync(id);
         }
 
         [HttpGet("count")]
-        public int GetChefCount()
+        public async Task<int> GetChefCount()
         {
-            return service.GetAll().Count; 
+            var chefs = await service.GetAllAsync();
+            return chefs.Count; 
         }
 
         [HttpGet("{chefId}/recipes")]
-        public ActionResult<List<RecipeDto>> GetRecipesByChefId(int chefId)
+        public async Task<ActionResult<List<RecipeDto>>> GetRecipesByChefId(int chefId)
         {
-            var recipes = chef.GetRecipesByChefId(chefId);
+            var recipes = await chef.GetRecipesByChefIdAsync(chefId);
             return Ok(recipes ?? new List<RecipeDto>());
         }
 
-
-        //[HttpPost]
-        //[Route("{chefId}/rate")]
-        //public async Task<IActionResult> UpdateChefAverageRating(int chefId, [FromBody] decimal newRating)
-        //{
-        //    using (ChefDB context = new ChefDB())
-        //    {
-        //        var chef = await context.Chefs.FindAsync(chefId);
-        //        if (chef == null)
-        //        {
-        //            return NotFound("Chef not found");
-        //        }
-        //        chef.AverageRating = (chef.AverageRating + newRating) / 2;
-
-        //        await context.SaveChangesAsync();
-        //        return Ok();
-        //    }
-        //}
-
         [HttpGet("user/{userId}")]
-        public ActionResult<ChefDto> GetChefByUserId(int userId)
+        public async Task<ActionResult<ChefDto>> GetChefByUserId(int userId)
         {
-            var chef = _chef.GetByUserId(userId);
+            var chef = await _chef.GetByUserIdAsync(userId);
             return chef;
         }
 

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 
 
 namespace Repository.Entities
@@ -18,6 +19,8 @@ namespace Repository.Entities
     {
         public int Id { get; set; }
         public string Title { get; set; }
+
+        [MaxLength(50)]
         public string Description { get; set; }
         public ICollection<Ingredient> Ingredients { get; set; }
         public string Instructions { get; set; }
@@ -29,7 +32,7 @@ namespace Repository.Entities
         public DifficultyLevel DifficultyLevel { get; set; }
 
         [ForeignKey("Chef")]
-        public int ChefId { get; set; }
+        public required int ChefId { get; set; }
         public virtual Chef? Chef { get; set; }
 
         [ForeignKey("Category")]

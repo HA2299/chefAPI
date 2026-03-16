@@ -24,7 +24,7 @@ public class RecipeAIController : ControllerBase
         {
             var geminiClient = new Client(apiKey: _apiKey);
             var geminiResponse = await geminiClient.Models.GenerateContentAsync(
-                model: "gemma-3-4b-it", contents: request.Question); // השתמש בשאלה מהבקשה
+                model: "gemma-3-4b-it", contents: request.Question);
 
             return Ok(geminiResponse);
         }

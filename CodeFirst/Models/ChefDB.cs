@@ -19,9 +19,9 @@ namespace CodeFirst.Models
         public virtual DbSet<RecipeIngredient> RecipeIngredients { get; set; }
         public virtual DbSet<Recipe> Recipes { get; set; }
 
-        public void Save()
+        public async Task Save()
         {
-            SaveChanges();
+            await SaveChangesAsync();
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

@@ -27,67 +27,62 @@ namespace Service.Services
             _mapper = mapper;
         }
 
-        public ChefDto AddItem(ChefDto item)
+        public async Task<ChefDto> AddItemAsync(ChefDto item)
         {
             var chef = _mapper.Map<ChefDto, Chef>(item);
-            var addedRecipe = _repository.AddItem(chef);
-            return _mapper.Map<Chef, ChefDto>(addedRecipe);
+            var addedRecipe = _repository.AddItemAsync(chef);
+            return await _mapper.Map<Task<Chef>, Task<ChefDto>>(addedRecipe);
         }
 
-        public void DeleteItem(int id)
+        public async Task DeleteItemAsync(int id)
         {
-            _repository.DeleteItem(id);
+           await _repository.DeleteItemAsync(id);
         }
 
-        public List<ChefDto> GetAll()
+        public async Task<List<ChefDto>> GetAllAsync()
         {
-            var chefs = _repository.GetAll();
+            var chefs = await _repository.GetAllAsync();
             return _mapper.Map<List<Chef>, List<ChefDto>>(chefs);
         }
 
-        public ChefDto GetById(int id)
+        public async Task<ChefDto> GetByIdAsync(int id)
         {
-            var chef = _repository.GetById(id);
+            var chef = await _repository.GetByIdAsync(id);
             return _mapper.Map<Chef, ChefDto>(chef);
         }
-        public void UpdateItem(int id, ChefDto item)
+        public async Task UpdateItemAsync(int id, ChefDto item)
         {
             var chef = _mapper.Map<ChefDto, Chef>(item);
-            _repository.UpdateItem(id, chef);
+            await _repository.UpdateItemAsync(id, chef);
         }
-        public List<RecipeDto> GetRecipesByChefId(int chefId)
+        public async Task<List<RecipeDto>> GetRecipesByChefIdAsync(int chefId)
         {
-            var recipes = _recipeRepository.GetAll()
-                .Where(r => r.ChefId == chefId)
-                .ToList();
+            var recipes = await _recipeRepository.GetAllAsync();
+            var filteredRecipes = recipes.Where(r => r.ChefId == chefId).ToList();
 
-            return _mapper.Map<List<RecipeDto>>(recipes);
+            return _mapper.Map<List<RecipeDto>>(filteredRecipes);
         }
 
-        public ChefDto GetByUserId(int userId)
+        public async Task<ChefDto> GetByUserIdAsync(int userId)
         {
-            var chef = _repository.GetAll().FirstOrDefault(c => c.UserId == userId);
+            var chefs = await _repository.GetAllAsync();
+            var chef = chefs.FirstOrDefault(c => c.UserId == userId);
             return _mapper.Map<ChefDto>(chef);
         }
 
-        public void UpdateChefRating(int chefId, double newRating)
+        public async Task UpdateChefRatingAsync(int chefId, double newRating)
         {
-            var recipes = GetRecipesByChefId(chefId); 
+            var recipes = await GetRecipesByChefIdAsync(chefId); 
             if (recipes.Count == 0)
             {
                 return;
             }
-            double averageRating = recipes.Average(r => r.Rating);
-            var chef = GetById(chefId);
+            double averageRating = Math.Round(recipes.Average(r => r.Rating), 3); 
+            var chef = await GetByIdAsync(chefId);
             if (chef != null)
             {
-                Console.WriteLine(chef.AverageRating);
                 chef.AverageRating = averageRating;
-                Console.WriteLine(chef.Id);
-                Console.WriteLine(chef.AverageRating);
-                UpdateItem(chefId, chef);
-                Console.WriteLine(GetById(chefId).AverageRating);
-
+                await UpdateItemAsync(chefId, chef);
             }
         }
      }

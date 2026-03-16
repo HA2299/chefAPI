@@ -15,45 +15,44 @@ namespace WebApiProjectChef.Controllers
 
         // GET: api/<RecipeIngredientController>
         [HttpGet]
-        public List<RecipeIngredient> Get()
+        public async Task<List<RecipeIngredient>> Get()
         {
-            return service.GetAll();
+            return await service.GetAllAsync();
         }
 
         // GET api/<RecipeIngredientController>/5
         [HttpGet("{id}")]
-        public RecipeIngredient Get(int id)
+        public async Task<RecipeIngredient> Get(int id)
         {
-            return service.GetById(id);
+            return await service.GetByIdAsync(id);
         }
 
         [HttpGet("recipeId/{recipeId}")]
-        public List<RecipeIngredient> GetByRecipeId(int recipeId)
+        public async Task<List<RecipeIngredient>> GetByRecipeId(int recipeId)
         {
-            return recipeIngredientService.GetByRecipeId(recipeId); // ודא שהשירות שלך תומך בשיטה זו
+            return await recipeIngredientService.GetByRecipeIdAsync(recipeId); 
         }
 
 
         // POST api/<RecipeIngredientController>
         [HttpPost]
-        public RecipeIngredient Post([FromBody] RecipeIngredient value)
+        public async Task<RecipeIngredient> Post([FromBody] RecipeIngredient value)
         {
-            Console.WriteLine(value);
-            return service.AddItem(value);
+            return await service.AddItemAsync(value);
         }
 
         // PUT api/<RecipeIngredientController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] RecipeIngredient value)
+        public async Task Put(int id, [FromBody] RecipeIngredient value)
         {
-            service.UpdateItem(id, value);
+            await service.UpdateItemAsync(id, value);
         }
 
         // DELETE api/<RecipeIngredientController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task Delete(int id)
         {
-            service.DeleteItem(id);
+            await service.DeleteItemAsync(id);
         }
     }
 }

@@ -22,91 +22,124 @@ namespace WebApiProjectChef.Controllers
 
         // GET: api/<RecipeController>
         [HttpGet]
-        public List<RecipeDto> Get()
+        public async Task<List<RecipeDto>> Get()
         {
-            return service.GetAll();
+            return await service.GetAllAsync();
         }
 
         // GET api/<RecipeController>/5
         [HttpGet("{id}")]
-        public RecipeDto Get(int id)
+        public async Task<RecipeDto> Get(int id)
         {
-            return service.GetById(id);
+            return await service.GetByIdAsync(id);
         }
 
         // POST api/<RecipeController>
         [Authorize(Roles = "admin")]
         [HttpPost]
-        public RecipeDto Post([FromForm] RecipeDto value)
+        public async Task<RecipeDto> Post([FromForm] RecipeDto value)
         {
-            return service.AddItem(value);
+            var path = Path.Combine(Environment.CurrentDirectory, "Images/images_recipes", value.FileImage.FileName);
+            using (FileStream fs = new FileStream(path, FileMode.Create))
+            {
+                value.FileImage.CopyTo(fs);
+                fs.Close();
+            }
+            return await service.AddItemAsync(value);
         }
 
         // PUT api/<IngredientController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromForm] RecipeDto value)
+        public async Task Put(int id, [FromForm] RecipeDto value)
         {
-            service.UpdateItem(id, value);
+            await service.UpdateItemAsync(id, value);
         }
 
         // DELETE api/<IngredientController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task Delete(int id)
         {
-            service.DeleteItem(id);
+            await service.DeleteItemAsync(id);
         }
 
         [HttpGet("count")]
-        public int GetRecipeCount()
+        public async Task<int> GetRecipeCount()
         {
-            return service.GetAll().Count;
+            var recipes = await service.GetAllAsync();
+            return recipes.Count;
         }
 
-        [HttpGet("search")]
-        public ActionResult<List<RecipeDto>> Search([FromQuery] string query)
+        [HttpGet("averageRate")]
+        public async Task<double> GetAverageRating()
         {
-            var recipes = service.GetAll();
+            var recipes = await service.GetAllAsync();
+            if (recipes == null || !recipes.Any())
+            {
+                return 0;
+            }
+
+            double averageRating = recipes.Average(r => r.Rating);
+            return Math.Round(averageRating, 3);
+        }
+
+
+        [HttpGet("search")]
+        public async Task<ActionResult<List<RecipeDto>>> Search([FromQuery] string query)
+        {
+            var recipes = await service.GetAllAsync();
             if (!string.IsNullOrWhiteSpace(query))
             {
-                recipes = recipes.Where(r =>
-                    (r.Title != null && r.Title.Contains(query, StringComparison.OrdinalIgnoreCase)) ||
-                    ((chefService.GetById(r.ChefId).User.Name).Contains(query, StringComparison.OrdinalIgnoreCase)) ||
-                    (recipeIngredientService.GetByRecipeId(r.Id).Select(i => i.Ingredient.Name).Any(name => name.Contains(query, StringComparison.OrdinalIgnoreCase)))
-                ).ToList();
+                var filteredRecipes = new List<RecipeDto>();
+
+                foreach (var r in recipes)
+                {
+                    bool matchesQuery =
+                        (r.Title != null && r.Title.Contains(query, StringComparison.OrdinalIgnoreCase)) ||
+                        ((await chefService.GetByIdAsync(r.ChefId)).User.Name.Contains(query, StringComparison.OrdinalIgnoreCase)) ||
+                        (await recipeIngredientService.GetByRecipeIdAsync(r.Id)).Any(i => i.Ingredient.Name.Contains(query, StringComparison.OrdinalIgnoreCase));
+
+                    if (matchesQuery)
+                    {
+                        filteredRecipes.Add(r);
+                    }
+                }
+
+                recipes = filteredRecipes;
             }
 
             return Ok(recipes);
         }
 
+
         [HttpPost("rate")]
-        public IActionResult RateRecipe([FromBody] RatingData ratingData)
+        public async Task<IActionResult> RateRecipe([FromBody] RatingData ratingData)
         {
             if (ratingData == null)
             {
                 return BadRequest("Rating data cannot be null");
             }
 
-            var recipe = service.GetById(int.Parse(ratingData.recipeId));
+            var recipe = await service.GetByIdAsync(int.Parse(ratingData.recipeId));
             if (recipe == null)
             {
                 return NotFound("Recipe not found");
             }
 
-            recipeService.AddRating(recipe.Id, ratingData.ratingValue);
+            await recipeService.AddRatingAsync(recipe.Id, ratingData.ratingValue);
 
-            var chef = chefService.GetById(recipe.ChefId);
+            var chef = await chefService.GetByIdAsync(recipe.ChefId);
             if (chef != null)
             {
-                _chef.UpdateChefRating(chef.Id, recipe.Rating);
+                await _chef.UpdateChefRatingAsync(chef.Id, recipe.Rating);
             }
             return Ok(new { success = true });
         }
 
         // GET api/Recipe/rate/{recipeId}
         [HttpGet("rate/{recipeId}")]
-        public IActionResult GetUserRating(string recipeId)
+        public async Task<IActionResult> GetUserRating(string recipeId)
         {
-            var recipe = service.GetById(int.Parse(recipeId));
+            var recipe = await service.GetByIdAsync(int.Parse(recipeId));
             if (recipe == null)
             {
                 return NotFound("Recipe not found");
@@ -117,7 +150,7 @@ namespace WebApiProjectChef.Controllers
 
         // GET api/recipe/ratings/{recipeId}
         [HttpGet("ratings/{recipeId}")]
-        public IActionResult GetRecipeRatings(string recipeId)
+        public async Task<IActionResult> GetRecipeRatings(string recipeId)
         {
 
             if (string.IsNullOrEmpty(recipeId) || recipeId == "undefined")
@@ -130,7 +163,7 @@ namespace WebApiProjectChef.Controllers
             {
                 return BadRequest("Invalid recipe ID format");
             }
-            var recipe = service.GetById(int.Parse(recipeId));
+            var recipe = await service.GetByIdAsync(int.Parse(recipeId));
             if (recipe == null)
             {
                 return NotFound("Recipe not found");
@@ -140,9 +173,9 @@ namespace WebApiProjectChef.Controllers
 
         // GET api/recipe/all-ratings/{recipeId}
         [HttpGet("all-ratings/{recipeId}")]
-        public IActionResult GetAllRatingsForRecipe(string recipeId)
+        public async Task<IActionResult> GetAllRatingsForRecipe(string recipeId)
         {
-            var recipe = service.GetById(int.Parse(recipeId));
+            var recipe = await service.GetByIdAsync(int.Parse(recipeId));
             if (recipe == null)
             {
                 return NotFound("Recipe not found");

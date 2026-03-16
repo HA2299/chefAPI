@@ -14,37 +14,37 @@ namespace WebApiProjectChef.Controllers
 
         // GET: api/<FavoriteController>
         [HttpGet]
-        public List<Favorite> Get()
+        public async Task<List<Favorite>> Get()
         {
-            return service.GetAll();
+            return await service.GetAllAsync();
         }
 
         // GET api/<FavoriteController>/5
         [HttpGet("{id}")]
-        public Favorite Get(int id)
+        public async Task<Favorite> Get(int id)
         {
-            return service.GetById(id);
+            return await service.GetByIdAsync(id);
         }
 
         // POST api/<FavoriteController>
         [HttpPost]
-        public Favorite Post([FromBody] Favorite value)
+        public async Task<Favorite> Post([FromBody] Favorite value)
         {
-            return service.AddItem(value);
+            return await service.AddItemAsync(value);
         }
 
         // PUT api/<FavoriteController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] Favorite value)
+        public async Task Put(int id, [FromBody] Favorite value)
         {
-            service.UpdateItem(id, value);
+            await service.UpdateItemAsync(id, value);
         }
 
         // DELETE api/<FavoriteController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task Delete(int id)
         {
-            service.DeleteItem(id);
+            await service.DeleteItemAsync(id);
         }
     }
 }

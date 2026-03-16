@@ -177,3 +177,4 @@ C:\studies\second year\c#++\new2\WebApiProjectChef\Service\bin\Debug\net8.0\runt
 C:\studies\second year\c#++\new2\WebApiProjectChef\Service\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\studies\second year\c#++\new2\WebApiProjectChef\Service\bin\Debug\net8.0\CodeFirst.dll
 C:\studies\second year\c#++\new2\WebApiProjectChef\Service\bin\Debug\net8.0\CodeFirst.pdb
+C:\studies\second year\c#++\new2\WebApiProjectChef\Service\obj\Debug\net8.0\Service.sourcelink.json

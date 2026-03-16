@@ -1,4 +1,5 @@
-﻿using Repository.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using Repository.Entities;
 using Repository.interfaces;
 using System;
 using System.Collections.Generic;
@@ -13,39 +14,38 @@ namespace Repository.Repositories
 
         private readonly IContext _context = context;
 
-        public Favorite AddItem(Favorite item)
+        public async Task<Favorite> AddItemAsync(Favorite item)
         {
-            _context.Favorites.Add(item);
-
-            _context.Save();
+            await _context.Favorites.AddAsync(item);
+            await _context.Save();
             return item;
         }
 
-        public void DeleteItem(int id)
+        public async Task DeleteItemAsync(int id)
         {
-            _context.Favorites.Remove(GetById(id));
-            _context.Save();
+            _context.Favorites.Remove(await GetByIdAsync(id));
+            await _context.Save();
         }
 
-        public List<Favorite> GetAll()
+        public async Task<List<Favorite>> GetAllAsync()
         {
-            return _context.Favorites.ToList();
+            return await _context.Favorites.ToListAsync();
         }
 
-        public Favorite GetById(int id)
+        public async Task<Favorite> GetByIdAsync(int id)
         {
-            return _context.Favorites.ToList().FirstOrDefault(x => x.Id == id);
+            return await _context.Favorites.SingleAsync(x => x.Id == id);
         }
 
-        public void UpdateItem(int id, Favorite item)
+        public async Task UpdateItemAsync(int id, Favorite item)
         {
-            var Favorite = GetById(id);
+            var Favorite = await GetByIdAsync(id);
             Favorite.Id = item.Id;
             Favorite.UserId = item.UserId;
             Favorite.User = item.User;
             Favorite.RecipeId = item.RecipeId;
             Favorite.Recipe= item.Recipe;
-            _context.Save();
+            await _context.Save();
         }
     }
 }

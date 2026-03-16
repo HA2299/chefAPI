@@ -9,7 +9,7 @@ namespace Service.Interfaces
 {
     public interface IUser
     {
-        User GetByEmail(string email);
+        Task<User> GetByEmailAsync(string email);
 
     }
 }

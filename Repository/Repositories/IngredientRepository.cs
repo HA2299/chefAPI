@@ -1,4 +1,5 @@
-﻿using Repository.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using Repository.Entities;
 using Repository.interfaces;
 using System;
 using System.Collections.Generic;
@@ -13,42 +14,41 @@ namespace Repository.Repositories
 
         private readonly IContext _context = context;
 
-        public Ingredient AddItem(Ingredient item)
+        public async Task<Ingredient> AddItemAsync(Ingredient item)
         {
-            _context.Ingredients.Add(item);
-
-            _context.Save();
+            await _context.Ingredients.AddAsync(item);
+            await _context.Save();
             return item;
         }
 
-        public void DeleteItem(int id)
+        public async Task DeleteItemAsync(int id)
         {
-            _context.Ingredients.Remove(GetById(id));
-            _context.Save();
+            _context.Ingredients.Remove(await GetByIdAsync(id));
+            await _context.Save();
         }
 
-        public List<Ingredient> GetAll()
+        public async Task<List<Ingredient>> GetAllAsync()
         {
-            return _context.Ingredients.ToList();
+            return  await _context.Ingredients.ToListAsync();
         }
 
-        public Ingredient GetById(int id)
+        public async Task<Ingredient> GetByIdAsync(int id)
         {
-            return _context.Ingredients.ToList().FirstOrDefault(x => x.Id == id);
+            return await _context.Ingredients.SingleAsync(x => x.Id == id);
         }
 
-        public Ingredient GetByName(string name)
+        public async Task<Ingredient> GetByNameAsync(string name)
         {
-            return _context.Ingredients.FirstOrDefault(i => i.Name == name);
+            return await _context.Ingredients.SingleAsync(x=>x.Name == name);
         }
 
-        public void UpdateItem(int id, Ingredient item)
+        public async Task UpdateItemAsync(int id, Ingredient item)
         {
-            var Ingredient = GetById(id);
+            var Ingredient = await GetByIdAsync(id);
             Ingredient.Id = item.Id;
             Ingredient.Name = item.Name;
             //Ingredient.Recipes = item.Recipes;
-            _context.Save();
+            await _context.Save();
         }
     }
 }

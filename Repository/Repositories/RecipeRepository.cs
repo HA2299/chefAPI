@@ -14,32 +14,32 @@ namespace Repository.Repositories
 
         private readonly IContext _context = context;
 
-        public Recipe AddItem(Recipe item)
+        public async Task<Recipe> AddItemAsync(Recipe item)
         {
-            _context.Recipes.Add(item);
-            _context.Save();
+            await _context.Recipes.AddAsync(item);
+            await _context.Save();
             return item;
         }
 
-        public void DeleteItem(int id)
+        public async Task DeleteItemAsync(int id)
         {
-            _context.Recipes.Remove(GetById(id));
-            _context.Save();
+            _context.Recipes.Remove(await GetByIdAsync(id));
+            await _context.Save();
         }
 
-        public List<Recipe> GetAll()
+        public async Task<List<Recipe>> GetAllAsync()
         {
-            return _context.Recipes.ToList(); 
+            return await _context.Recipes.ToListAsync(); 
         }
 
-        public Recipe GetById(int id)
+        public async Task<Recipe> GetByIdAsync(int id)
         {
-            return _context.Recipes.ToList().FirstOrDefault(x => x.Id == id);
+            return await _context.Recipes.SingleAsync();
         }
 
-        public void UpdateItem(int id, Recipe item)
+        public async Task UpdateItemAsync(int id, Recipe item)
         {
-            var Recipe = GetById(id);
+            var Recipe =  await GetByIdAsync(id);
             Recipe.Id = item.Id;
             Recipe.Title = item.Title;
             Recipe.Description = item.Description;
@@ -55,7 +55,7 @@ namespace Repository.Repositories
             Recipe.NumDoses=item.NumDoses;
             Recipe.Rating=item.Rating;
             Recipe.RatingCount=item.RatingCount;
-            _context.Save();
+            await _context.Save();
         }
     }
 }

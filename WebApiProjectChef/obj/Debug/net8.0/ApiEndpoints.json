@@ -68,22 +68,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebApiProjectChef.Controllers.RegisterController",
-    "Method": "Register",
-    "RelativePath": "api/auth/Register",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "userRegister",
-        "Type": "Service.Dto.UserRegister",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "WebApiProjectChef.Controllers.CategoryController",
     "Method": "Get",
     "RelativePath": "api/Category",
@@ -945,6 +929,26 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProjectChef.Controllers.RecipeController",
+    "Method": "GetAverageRating",
+    "RelativePath": "api/Recipe/averageRate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Double",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "WebApiProjectChef.Controllers.RecipeController",

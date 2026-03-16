@@ -10,9 +10,9 @@ namespace Service.Interfaces
 {
     public interface IChef
     {
-        List<RecipeDto> GetRecipesByChefId(int chefId);
-        ChefDto GetByUserId(int userId);
-        void UpdateChefRating(int chefId, double newRating);
+        Task<List<RecipeDto>> GetRecipesByChefIdAsync(int chefId);
+        Task<ChefDto> GetByUserIdAsync(int userId);
+        Task UpdateChefRatingAsync(int chefId, double newRating);
 
 
     }

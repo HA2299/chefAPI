@@ -23,18 +23,14 @@ namespace Service.Services
 
             if (string.IsNullOrEmpty(mypath))
             {
-                // אם ה-ImageUrl ריק, השתמש בתמונה ברירת מחדל
-                filePath = Path.Combine(path, "default.jpg"); // הנח שהקובץ הוא default.jpg
+                filePath = Path.Combine(path, "default.jpg");
             }
             else
             {
                 filePath = Path.Combine(path, mypath);
             }
-
-            // בדוק אם הקובץ קיים לפני קריאת התוכן
             if (!File.Exists(filePath))
             {
-                // אם הקובץ לא קיים, ניתן להחזיר תמונה ברירת מחדל או לזרוק שגיאה
                 throw new FileNotFoundException("The image file was not found.", filePath);
             }
 

@@ -1,4 +1,5 @@
-﻿using Repository.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using Repository.Entities;
 using Repository.interfaces;
 using System;
 using System.Collections.Generic;
@@ -13,36 +14,36 @@ namespace Repository.Repositories
 
         private readonly IContext _context = context;
 
-        public Category AddItem(Category item)
+        public async Task<Category> AddItemAsync(Category item)
         {
-            _context.Categories.Add(item);
-            _context.Save();
+            await _context.Categories.AddAsync(item);
+            await _context.Save();
             return item;
         }
 
-        public void DeleteItem(int id)
+        public async Task DeleteItemAsync(int id)
         {
-            _context.Categories.Remove(GetById(id));
-            _context.Save();
+            _context.Categories.Remove(await GetByIdAsync(id));
+             await _context.Save();
         }
 
-        public List<Category> GetAll()
+        public async Task<List<Category>> GetAllAsync()
         {
-            return _context.Categories.ToList();
+            return await _context.Categories.ToListAsync();
+        }
+    
+        public async Task<Category> GetByIdAsync(int id)
+        {
+            return await _context.Categories.SingleAsync(x=>x.Id == id);
         }
 
-        public Category GetById(int id)
+        public async Task UpdateItemAsync(int id, Category item)
         {
-            return _context.Categories.ToList().FirstOrDefault(x => x.Id == id);
-        }
-
-        public void UpdateItem(int id, Category item)
-        {
-            var category = GetById(id);
+            var category = await GetByIdAsync(id);
             category.Id = item.Id;
             category.Name = item.Name;
             //category.Recipes = item.Recipes;
-            _context.Save();
+            await _context.Save();
         }
     }
 }

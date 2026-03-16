@@ -70,3 +70,4 @@ C:\studies\second year\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\R
 C:\studies\second year\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\refint\Repository.dll
 C:\studies\second year\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.pdb
 C:\studies\second year\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\ref\Repository.dll
+C:\studies\second year\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.sourcelink.json

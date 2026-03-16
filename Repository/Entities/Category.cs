@@ -20,7 +20,7 @@ namespace Repository.Entities
     public class Category
     {
         public int Id { get; set; }
-        public CategoryType Name { get; set; }
+        public required CategoryType Name { get; set; }
         //public ICollection<Recipe>? Recipes { get; set; }
     }
 }

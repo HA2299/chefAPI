@@ -9,6 +9,6 @@ namespace Service.Interfaces
 {
     public interface IRecipeIngredient
     {
-        List<RecipeIngredient> GetByRecipeId(int recipeId);
+        Task<List<RecipeIngredient>> GetByRecipeIdAsync(int recipeId);
     }
 }

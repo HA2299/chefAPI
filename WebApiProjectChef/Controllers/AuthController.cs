@@ -24,9 +24,9 @@ namespace WebApiProjectChef.Controllers
 
         // POST api/auth/register
         [HttpPost("register")]
-        public IActionResult Register([FromBody] UserRegister userRegister)
+        public async Task<IActionResult> Register([FromBody] UserRegister userRegister)
         {
-            var result = login.Register(userRegister);
+            var result = await login.Register(userRegister);
             if (result)
             {
                 return Ok("User registered successfully.");
@@ -36,9 +36,9 @@ namespace WebApiProjectChef.Controllers
 
         // POST api/auth/login
         [HttpPost("login")]
-        public UserWithToken Login([FromBody] UserLogin user)
+        public async Task<UserWithToken> Login([FromBody] UserLogin user)
         {
-            var user1 = login.Authenticate(user);
+            var user1 = await login.Authenticate(user);
             if (user1 != null)
             {
                 var token = GenerateToken(user1);
@@ -53,9 +53,9 @@ namespace WebApiProjectChef.Controllers
 
         // GET api/auth/getUserByToken
         [HttpGet("getUserByToken")]
-        public User GetUserByToken([FromHeader] string token)
+        public async Task<User> GetUserByToken([FromHeader] string token)
         {
-            var user = login.GetUserByToken(token);
+            var user = await login.GetUserByToken(token);
             if (user != null)
             {
                 return user;

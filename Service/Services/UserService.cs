@@ -13,30 +13,29 @@ namespace Service.Services
     {
         private readonly IRepository<User> repository = repository;
 
-        public User AddItem(User item)
+        public Task<User> AddItemAsync(User item)
         {
-
-            return repository.AddItem(item);
+            return repository.AddItemAsync(item);
         }
 
-        public void DeleteItem(int id)
+        public Task DeleteItemAsync(int id)
         {
-            repository.DeleteItem(id);
+            return repository.DeleteItemAsync(id);
         }
 
-        public List<User> GetAll()
+        public Task<List<User>> GetAllAsync()
         {
-            return repository.GetAll();
+            return repository.GetAllAsync();
         }
 
-        public User GetById(int id)
+        public Task<User> GetByIdAsync(int id)
         {
-            return repository.GetById(id);
+            return repository.GetByIdAsync(id);
         }
 
-        public void UpdateItem(int id, User item)
+        public Task UpdateItemAsync(int id, User item)
         {
-            repository.UpdateItem(id, item);
+            return repository.UpdateItemAsync(id, item);
         }
     }
 }
