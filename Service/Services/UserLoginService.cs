@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
+using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
@@ -46,13 +48,27 @@ namespace Service.Services
             return await Task.FromResult(await GetUserByToken(token));
         }
 
-        // שיטה לדוגמה לאימות טוקן
         private int? ValidateToken(string token)
         {
-            // כאן תוכל להוסיף לוגיקה לאימות הטוקן
-            // החזר את מזהה המשתמש אם הטוקן תקף, אחרת החזר null
-            return 1; // החזר את מזהה המשתמש המתאים (כמו 1 לדוגמה)
+            var handler = new JwtSecurityTokenHandler();
+            var jwtToken = handler.ReadToken(token) as JwtSecurityToken;
+            if (jwtToken == null)
+            {
+                return null; // טוקן לא תקף
+            }
+            var userIdClaim = jwtToken.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier);
+
+            if (userIdClaim == null)
+            {
+                return null; // לא נמצא Claim של מזהה המשתמש
+            }
+            if (int.TryParse(userIdClaim.Value, out int userId))
+            {
+                return userId;
+            }
+            return null; // לא ניתן להמיר את המזהה
         }
+
 
         public async Task<bool> Register(UserRegister userRegister)
         {

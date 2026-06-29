@@ -14,9 +14,9 @@ namespace Service.Dto
         public int Id { get; set; }
 
         [ForeignKey("User")]
-        public int? UserId { get; set; } // שינוי ל-int?
+        public int? UserId { get; set; }
         public virtual User? User { get; set; }
-        public ICollection<Recipe> Recipes { get; set; }
+        public ICollection<Recipe>? Recipes { get; set; }
         public double AverageRating {  get; set; }
         public byte[]? Image { get; set; } //התמונה כמחרוזת
         public IFormFile? FileImage { get; set; }

@@ -106,3 +106,22 @@ C:\studies\second year\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\Co
 C:\studies\second year\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.genruntimeconfig.cache
 C:\studies\second year\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\ref\CodeFirst.dll
 C:\studies\second year\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.sourcelink.json
+E:\c#++\new2\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.sourcelink.json
+C:\studies\second year\פרויקט\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\CodeFirst.deps.json
+C:\studies\second year\פרויקט\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\CodeFirst.runtimeconfig.json
+C:\studies\second year\פרויקט\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\CodeFirst.dll
+C:\studies\second year\פרויקט\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\CodeFirst.pdb
+C:\studies\second year\פרויקט\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\Repository.dll
+C:\studies\second year\פרויקט\WebApiProjectChef\CodeFirst\bin\Debug\net8.0\Repository.pdb
+C:\studies\second year\פרויקט\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.csproj.AssemblyReference.cache
+C:\studies\second year\פרויקט\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.GeneratedMSBuildEditorConfig.editorconfig
+C:\studies\second year\פרויקט\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.AssemblyInfoInputs.cache
+C:\studies\second year\פרויקט\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.AssemblyInfo.cs
+C:\studies\second year\פרויקט\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.csproj.CoreCompileInputs.cache
+C:\studies\second year\פרויקט\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.sourcelink.json
+C:\studies\second year\פרויקט\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.csproj.Up2Date
+C:\studies\second year\פרויקט\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.dll
+C:\studies\second year\פרויקט\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\refint\CodeFirst.dll
+C:\studies\second year\פרויקט\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.pdb
+C:\studies\second year\פרויקט\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\CodeFirst.genruntimeconfig.cache
+C:\studies\second year\פרויקט\WebApiProjectChef\CodeFirst\obj\Debug\net8.0\ref\CodeFirst.dll

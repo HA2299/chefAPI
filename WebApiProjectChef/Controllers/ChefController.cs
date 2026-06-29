@@ -1,5 +1,6 @@
 ﻿using CodeFirst.Models;
 using Google;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Repository.Entities;
 using Service.Dto;
@@ -30,20 +31,29 @@ namespace WebApiProjectChef.Controllers
             return await service.GetByIdAsync(id);
         }
 
-        // POST api/<ChefController>
+        [Authorize(Roles = "admin")]
         [HttpPost]
-        public async Task<ChefDto> Post([FromBody] ChefDto value)
+        public async Task<ActionResult<ChefDto>> Post([FromForm] ChefDto value)
         {
-            var path = Path.Combine(Environment.CurrentDirectory, "Images/images_chefs", value.FileImage.FileName);
-            using (FileStream fs = new FileStream(path, FileMode.Create))
+            // בדיקה אם נשלח קובץ בכלל
+            if (value.FileImage != null && value.FileImage.Length > 0)
             {
-                value.FileImage.CopyTo(fs);
-                fs.Close();
+                var directoryPath = Path.Combine(Environment.CurrentDirectory, "images_chefs");
+                if (!Directory.Exists(directoryPath)) Directory.CreateDirectory(directoryPath);
+
+                var path = Path.Combine(directoryPath, value.FileImage.FileName);
+                using (FileStream fs = new FileStream(path, FileMode.Create))
+                {
+                    await value.FileImage.CopyToAsync(fs);
+                }
             }
-            return await service.AddItemAsync(value);
+
+            var result = await service.AddItemAsync(value);
+            return Ok(result);
         }
 
         // PUT api/<ChefController>/5
+        [Authorize(Roles = "admin")]
         [HttpPut("{id}")]
         public async Task Put(int id, [FromBody] ChefDto value)
         {
@@ -51,6 +61,7 @@ namespace WebApiProjectChef.Controllers
         }
 
         // DELETE api/<ChefController>/5
+        [Authorize(Roles = "admin")]
         [HttpDelete("{id}")]
         public async Task Delete(int id)
         {

@@ -39,18 +39,18 @@ namespace Repository.Repositories
 
         public async Task<User> GetByIdAsync(int id)
         {
-            return await _context.Users.SingleAsync(x => x.Id == id);
+            return await _context.Users.FirstOrDefaultAsync(u => u.Id == id);
         }
 
         public async Task<User> GetByEmailAsync(string email)
         {
-            return await _context.Users.SingleAsync(x=>x.Email == email);
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
+            Console.WriteLine(user);
+            return user;
         }
-
         public async Task UpdateItemAsync(int id, User item)
         {
             var user = await GetByIdAsync(id);
-            user.Id = item.Id;
             user.Name = item.Name;
             user.Email = item.Email;
             user.Password = item.Password;

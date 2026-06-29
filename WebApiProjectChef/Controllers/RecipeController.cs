@@ -35,11 +35,11 @@ namespace WebApiProjectChef.Controllers
         }
 
         // POST api/<RecipeController>
-        [Authorize(Roles = "admin")]
         [HttpPost]
         public async Task<RecipeDto> Post([FromForm] RecipeDto value)
         {
-            var path = Path.Combine(Environment.CurrentDirectory, "Images/images_recipes", value.FileImage.FileName);
+            var path = Path.Combine(Environment.CurrentDirectory, "images_recipes", value.FileImage.FileName);
+
             using (FileStream fs = new FileStream(path, FileMode.Create))
             {
                 value.FileImage.CopyTo(fs);

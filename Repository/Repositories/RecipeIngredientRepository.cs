@@ -40,7 +40,6 @@ namespace Repository.Repositories
         public async Task UpdateItemAsync(int id, RecipeIngredient item)
         {
             var RecipeIngredient =  await GetByIdAsync(id);
-            RecipeIngredient.Id = item.Id;
             RecipeIngredient.RecipeId = item.RecipeId;
             RecipeIngredient.Recipe = item.Recipe;
             RecipeIngredient.IngredientId = item.IngredientId;

@@ -54,5 +54,24 @@ namespace WebApiProjectChef.Controllers
         {
             await service.DeleteItemAsync(id);
         }
+
+        [HttpPut("updateByRecipeId/{recipeId}")]
+        public async Task<IActionResult> UpdateIngredientByRecipeId([FromForm] RecipeIngredient ingredient)
+        {
+            if (ingredient == null)
+            {
+                return BadRequest("No ingredient provided.");
+            }
+
+            var result = await recipeIngredientService.UpdateIngredientByRecipeIdAsync(ingredient.RecipeId, ingredient);
+
+            if (result)
+            {
+                return NoContent();
+            }
+            return NotFound("Recipe not found or ingredient could not be updated.");
+        }
+
+
     }
 }

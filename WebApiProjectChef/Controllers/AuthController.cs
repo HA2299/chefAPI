@@ -36,31 +36,32 @@ namespace WebApiProjectChef.Controllers
 
         // POST api/auth/login
         [HttpPost("login")]
-        public async Task<UserWithToken> Login([FromBody] UserLogin user)
+        public async Task<IActionResult> Login([FromBody] UserLogin user)
         {
             var user1 = await login.Authenticate(user);
             if (user1 != null)
             {
                 var token = GenerateToken(user1);
-                return new UserWithToken
+                return Ok(new UserWithToken
                 {
                     User = user1,
                     Token = token
-                };
+                });
             }
-            throw new Exception("User not found...");
+            return NotFound("User not found."); // או Unauthorized("Invalid credentials.");
         }
 
-        // GET api/auth/getUserByToken
         [HttpGet("getUserByToken")]
-        public async Task<User> GetUserByToken([FromHeader] string token)
+        public async Task<ActionResult<User>> GetUserByToken([FromHeader] string token)
         {
             var user = await login.GetUserByToken(token);
+
             if (user != null)
             {
-                return user;
+                return Ok(user);
             }
-            throw new Exception("Invalid token");
+
+            return Unauthorized("המשתמש אינו קיים במערכת או שהטוקן אינו תקף.");
         }
         private string GenerateToken(User user1)
         {
@@ -69,8 +70,8 @@ namespace WebApiProjectChef.Controllers
             var claims = new[]
             {
                 new Claim(ClaimTypes.Name, user1.Name),
-                new Claim(ClaimTypes.Email, user1.Email),
-                new Claim(ClaimTypes.Role, user1.Role)
+                new Claim(ClaimTypes.Role, user1.Role),
+                new Claim(ClaimTypes.NameIdentifier, user1.Id.ToString()) // הוספת מזהה המשתמש
             };
             var token = new JwtSecurityToken(config["Jwt:Issuer"], config["Jwt:Audience"],
                 claims,

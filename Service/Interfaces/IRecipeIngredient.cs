@@ -1,8 +1,5 @@
 ﻿using Repository.Entities;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Service.Interfaces
@@ -10,5 +7,6 @@ namespace Service.Interfaces
     public interface IRecipeIngredient
     {
         Task<List<RecipeIngredient>> GetByRecipeIdAsync(int recipeId);
+        Task<bool> UpdateIngredientByRecipeIdAsync(int recipeId, RecipeIngredient ingredient);
     }
 }

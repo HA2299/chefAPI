@@ -71,3 +71,17 @@ C:\studies\second year\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\r
 C:\studies\second year\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.pdb
 C:\studies\second year\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\ref\Repository.dll
 C:\studies\second year\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.sourcelink.json
+E:\c#++\new2\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.sourcelink.json
+C:\studies\second year\פרויקט\WebApiProjectChef\Repository\bin\Debug\net8.0\Repository.deps.json
+C:\studies\second year\פרויקט\WebApiProjectChef\Repository\bin\Debug\net8.0\Repository.dll
+C:\studies\second year\פרויקט\WebApiProjectChef\Repository\bin\Debug\net8.0\Repository.pdb
+C:\studies\second year\פרויקט\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.csproj.AssemblyReference.cache
+C:\studies\second year\פרויקט\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\studies\second year\פרויקט\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+C:\studies\second year\פרויקט\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+C:\studies\second year\פרויקט\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+C:\studies\second year\פרויקט\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.sourcelink.json
+C:\studies\second year\פרויקט\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.dll
+C:\studies\second year\פרויקט\WebApiProjectChef\Repository\obj\Debug\net8.0\refint\Repository.dll
+C:\studies\second year\פרויקט\WebApiProjectChef\Repository\obj\Debug\net8.0\Repository.pdb
+C:\studies\second year\פרויקט\WebApiProjectChef\Repository\obj\Debug\net8.0\ref\Repository.dll

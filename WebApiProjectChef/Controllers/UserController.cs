@@ -28,7 +28,7 @@ namespace WebApiProjectChef.Controllers
 
         // POST api/<UserController>
         [HttpPost]
-        public async Task<User> Post([FromBody] User value)
+        public async Task<User> Post([FromForm] User value)
         {
             return await service.AddItemAsync(value);
         }

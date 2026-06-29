@@ -62,24 +62,7 @@
         },
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/UserWithToken"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/UserWithToken"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/UserWithToken"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -350,19 +333,88 @@
         ],
         "requestBody": {
           "content": {
-            "application/json": {
+            "multipart/form-data": {
               "schema": {
-                "$ref": "#/components/schemas/ChefDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/ChefDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/ChefDto"
+                "type": "object",
+                "properties": {
+                  "Id": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "UserId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "User.Id": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "User.Name": {
+                    "type": "string"
+                  },
+                  "User.Email": {
+                    "type": "string"
+                  },
+                  "User.Password": {
+                    "type": "string"
+                  },
+                  "User.Role": {
+                    "type": "string"
+                  },
+                  "Recipes": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/Recipe"
+                    }
+                  },
+                  "AverageRating": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "Image": {
+                    "type": "string",
+                    "format": "byte"
+                  },
+                  "FileImage": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "Id": {
+                  "style": "form"
+                },
+                "UserId": {
+                  "style": "form"
+                },
+                "User.Id": {
+                  "style": "form"
+                },
+                "User.Name": {
+                  "style": "form"
+                },
+                "User.Email": {
+                  "style": "form"
+                },
+                "User.Password": {
+                  "style": "form"
+                },
+                "User.Role": {
+                  "style": "form"
+                },
+                "Recipes": {
+                  "style": "form"
+                },
+                "AverageRating": {
+                  "style": "form"
+                },
+                "Image": {
+                  "style": "form"
+                },
+                "FileImage": {
+                  "style": "form"
+                }
               }
             }
           }
@@ -1879,6 +1931,272 @@
         }
       }
     },
+    "/api/RecipeIngredient/updateByRecipeId/{recipeId}": {
+      "put": {
+        "tags": [
+          "RecipeIngredient"
+        ],
+        "parameters": [
+          {
+            "name": "recipeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "Ingredient.Name",
+                  "IngredientId",
+                  "Recipe.Category.Name",
+                  "Recipe.Chef.UserId",
+                  "Recipe.ChefId",
+                  "RecipeId"
+                ],
+                "type": "object",
+                "properties": {
+                  "Id": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "RecipeId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Recipe.Id": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Recipe.Title": {
+                    "type": "string"
+                  },
+                  "Recipe.Description": {
+                    "maxLength": 50,
+                    "type": "string"
+                  },
+                  "Recipe.Ingredients": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/Ingredient"
+                    }
+                  },
+                  "Recipe.Instructions": {
+                    "type": "string"
+                  },
+                  "Recipe.PreparationTime": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Recipe.CookingTime": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Recipe.NumDoses": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Recipe.ImageUrl": {
+                    "type": "string"
+                  },
+                  "Recipe.DifficultyLevel": {
+                    "$ref": "#/components/schemas/DifficultyLevel"
+                  },
+                  "Recipe.ChefId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Recipe.Chef.Id": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Recipe.Chef.UserId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Recipe.Chef.User.Id": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Recipe.Chef.User.Name": {
+                    "type": "string"
+                  },
+                  "Recipe.Chef.User.Email": {
+                    "type": "string"
+                  },
+                  "Recipe.Chef.User.Password": {
+                    "type": "string"
+                  },
+                  "Recipe.Chef.User.Role": {
+                    "type": "string"
+                  },
+                  "Recipe.Chef.ImageUrl": {
+                    "type": "string"
+                  },
+                  "Recipe.Chef.AverageRating": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "Recipe.Chef.Recipes": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/Recipe"
+                    }
+                  },
+                  "Recipe.CategoryId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Recipe.Category.Id": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Recipe.Category.Name": {
+                    "$ref": "#/components/schemas/CategoryType"
+                  },
+                  "Recipe.Rating": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "Recipe.RatingCount": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "IngredientId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Ingredient.Id": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Ingredient.Name": {
+                    "type": "string"
+                  },
+                  "Quantity": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "Unit": {
+                    "$ref": "#/components/schemas/UnitType"
+                  }
+                }
+              },
+              "encoding": {
+                "Id": {
+                  "style": "form"
+                },
+                "RecipeId": {
+                  "style": "form"
+                },
+                "Recipe.Id": {
+                  "style": "form"
+                },
+                "Recipe.Title": {
+                  "style": "form"
+                },
+                "Recipe.Description": {
+                  "style": "form"
+                },
+                "Recipe.Ingredients": {
+                  "style": "form"
+                },
+                "Recipe.Instructions": {
+                  "style": "form"
+                },
+                "Recipe.PreparationTime": {
+                  "style": "form"
+                },
+                "Recipe.CookingTime": {
+                  "style": "form"
+                },
+                "Recipe.NumDoses": {
+                  "style": "form"
+                },
+                "Recipe.ImageUrl": {
+                  "style": "form"
+                },
+                "Recipe.DifficultyLevel": {
+                  "style": "form"
+                },
+                "Recipe.ChefId": {
+                  "style": "form"
+                },
+                "Recipe.Chef.Id": {
+                  "style": "form"
+                },
+                "Recipe.Chef.UserId": {
+                  "style": "form"
+                },
+                "Recipe.Chef.User.Id": {
+                  "style": "form"
+                },
+                "Recipe.Chef.User.Name": {
+                  "style": "form"
+                },
+                "Recipe.Chef.User.Email": {
+                  "style": "form"
+                },
+                "Recipe.Chef.User.Password": {
+                  "style": "form"
+                },
+                "Recipe.Chef.User.Role": {
+                  "style": "form"
+                },
+                "Recipe.Chef.ImageUrl": {
+                  "style": "form"
+                },
+                "Recipe.Chef.AverageRating": {
+                  "style": "form"
+                },
+                "Recipe.Chef.Recipes": {
+                  "style": "form"
+                },
+                "Recipe.CategoryId": {
+                  "style": "form"
+                },
+                "Recipe.Category.Id": {
+                  "style": "form"
+                },
+                "Recipe.Category.Name": {
+                  "style": "form"
+                },
+                "Recipe.Rating": {
+                  "style": "form"
+                },
+                "Recipe.RatingCount": {
+                  "style": "form"
+                },
+                "IngredientId": {
+                  "style": "form"
+                },
+                "Ingredient.Id": {
+                  "style": "form"
+                },
+                "Ingredient.Name": {
+                  "style": "form"
+                },
+                "Quantity": {
+                  "style": "form"
+                },
+                "Unit": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/User": {
       "get": {
         "tags": [
@@ -1922,19 +2240,44 @@
         ],
         "requestBody": {
           "content": {
-            "application/json": {
+            "multipart/form-data": {
               "schema": {
-                "$ref": "#/components/schemas/User"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/User"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/User"
+                "type": "object",
+                "properties": {
+                  "Id": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Name": {
+                    "type": "string"
+                  },
+                  "Email": {
+                    "type": "string"
+                  },
+                  "Password": {
+                    "type": "string"
+                  },
+                  "Role": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "Id": {
+                  "style": "form"
+                },
+                "Name": {
+                  "style": "form"
+                },
+                "Email": {
+                  "style": "form"
+                },
+                "Password": {
+                  "style": "form"
+                },
+                "Role": {
+                  "style": "form"
+                }
               }
             }
           }
@@ -2572,19 +2915,6 @@
             "nullable": true
           },
           "role": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "UserWithToken": {
-        "type": "object",
-        "properties": {
-          "user": {
-            "$ref": "#/components/schemas/User"
-          },
-          "token": {
             "type": "string",
             "nullable": true
           }

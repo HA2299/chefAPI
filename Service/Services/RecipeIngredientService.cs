@@ -46,6 +46,42 @@ namespace Service.Services
             return recipeIngredients.Where(ri => ri.RecipeId == recipeId).ToList();
         }
 
+        public async Task<bool> UpdateIngredientByRecipeIdAsync(int recipeId, RecipeIngredient ingredient)
+        {
+            var existingIngredients = await GetByRecipeIdAsync(recipeId);
+            if (existingIngredients == null || !existingIngredients.Any())
+            {
+                return false;
+            }
+
+            var existingIngredient = existingIngredients.FirstOrDefault(ri => ri.Id == ingredient.Id);
+            if (existingIngredient != null)
+            {
+                // עדכון פרטי המרכיב הקיים
+                existingIngredient.IngredientId = ingredient.IngredientId;
+                existingIngredient.Quantity = ingredient.Quantity;
+                existingIngredient.Unit = ingredient.Unit;
+                await repository.UpdateItemAsync(existingIngredient.Id, existingIngredient);
+            }
+            else
+            {
+                // הוספת מרכיב חדש אם לא קיים
+                ingredient.RecipeId = recipeId; // ודא שה-RecipeId מוגדר
+                RecipeIngredient recipeIngredient = new RecipeIngredient
+                {
+                   Quantity = ingredient.Quantity,
+                   Unit = ingredient.Unit,
+                   RecipeId=recipeId,
+                    IngredientId = ingredient.Id
+                }; 
+
+                   
+                await repository.AddItemAsync(recipeIngredient);
+            }
+
+            return true;
+        }
+
         public async Task UpdateItemAsync(int id, RecipeIngredient item)
         {
             await repository.UpdateItemAsync(id, item);

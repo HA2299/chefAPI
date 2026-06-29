@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b6PE/FC1c2Y=",
+  "dgSpecHash": "0A5fimZRFyE=",
   "success": true,
-  "projectFilePath": "C:\\studies\\second year\\c#++\\new2\\WebApiProjectChef\\WebApiProjectChef\\WebApiProjectChef.csproj",
+  "projectFilePath": "C:\\studies\\second year\\פרויקט\\WebApiProjectChef\\WebApiProjectChef\\WebApiProjectChef.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\automapper\\16.1.0\\automapper.16.1.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

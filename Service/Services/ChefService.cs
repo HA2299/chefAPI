@@ -30,8 +30,8 @@ namespace Service.Services
         public async Task<ChefDto> AddItemAsync(ChefDto item)
         {
             var chef = _mapper.Map<ChefDto, Chef>(item);
-            var addedRecipe = _repository.AddItemAsync(chef);
-            return await _mapper.Map<Task<Chef>, Task<ChefDto>>(addedRecipe);
+            var addedRecipe = await _repository.AddItemAsync(chef);
+            return _mapper.Map<Chef,ChefDto>(addedRecipe);
         }
 
         public async Task DeleteItemAsync(int id)

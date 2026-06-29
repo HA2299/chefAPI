@@ -39,17 +39,7 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "WebApiProjectChef.Controllers.UserWithToken",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "WebApiProjectChef.Controllers.AuthController",
@@ -217,9 +207,59 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "value",
-        "Type": "Service.Dto.ChefDto",
-        "IsRequired": true
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.Role",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipes",
+        "Type": "System.Collections.Generic.ICollection\u00601[[Repository.Entities.Recipe, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "AverageRating",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "System.Byte[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileImage",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [
@@ -1192,6 +1232,187 @@
     ]
   },
   {
+    "ContainingType": "WebApiProjectChef.Controllers.RecipeIngredientController",
+    "Method": "UpdateIngredientByRecipeId",
+    "RelativePath": "api/RecipeIngredient/updateByRecipeId/{recipeId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "RecipeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Ingredients",
+        "Type": "System.Collections.Generic.ICollection\u00601[[Repository.Entities.Ingredient, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Instructions",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.PreparationTime",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.CookingTime",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.NumDoses",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.ImageUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.DifficultyLevel",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.ChefId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Chef.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Chef.UserId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Chef.User.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Chef.User.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Chef.User.Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Chef.User.Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Chef.User.Role",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Chef.ImageUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Chef.AverageRating",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Chef.Recipes",
+        "Type": "System.Collections.Generic.ICollection\u00601[[Repository.Entities.Recipe, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.CategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Category.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Category.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.Rating",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "Recipe.RatingCount",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "IngredientId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Ingredient.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Ingredient.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Quantity",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Unit",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "recipeId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApiProjectChef.Controllers.UserController",
     "Method": "Get",
     "RelativePath": "api/User",
@@ -1220,9 +1441,29 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "value",
-        "Type": "Repository.Entities.User",
-        "IsRequired": true
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Role",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [

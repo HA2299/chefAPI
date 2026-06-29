@@ -34,13 +34,12 @@ namespace Repository.Repositories
 
         public async Task<Recipe> GetByIdAsync(int id)
         {
-            return await _context.Recipes.SingleAsync();
+            var recipe = await _context.Recipes.FirstOrDefaultAsync(r => r.Id == id);
+            return recipe;
         }
-
         public async Task UpdateItemAsync(int id, Recipe item)
         {
             var Recipe =  await GetByIdAsync(id);
-            Recipe.Id = item.Id;
             Recipe.Title = item.Title;
             Recipe.Description = item.Description;
             Recipe.Ingredients = item.Ingredients;
