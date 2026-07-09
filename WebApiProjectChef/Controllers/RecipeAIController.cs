@@ -8,34 +8,22 @@ using Google.GenAI.Types;
 [Route("[controller]")]
 public class RecipeAIController : ControllerBase
 {
-    private readonly HttpClient _httpClient;
-    private readonly string _apiKey;
+    private readonly IRecipeAIService _aiService;
 
-    public RecipeAIController(HttpClient httpClient, IConfiguration configuration)
+
+    public RecipeAIController(IRecipeAIService aiService)
     {
-        _httpClient = httpClient;
-        _apiKey = configuration["GoogleApi:ApiKey"]; // קריאה מהמפתח בקובץ הקונפיגורציה
+        _aiService = aiService;
     }
 
-    [HttpPost("ask")]
-    public async Task<IActionResult> AskGemma([FromBody] QuestionRequest request)
-    {
-        try
-        {
-            var geminiClient = new Client(apiKey: _apiKey);
-            var geminiResponse = await geminiClient.Models.GenerateContentAsync(
-                model: "gemma-3-4b-it", contents: request.Question);
 
-            return Ok(geminiResponse);
-        }
-        catch (HttpRequestException ex)
-        {
-            return StatusCode(500, $"שגיאה בבקשה ל-Gemini API: {ex.Message}");
-        }
-        catch (Exception e)
-        {
-            return StatusCode(500, $"שגיאה כללית: {e.Message}");
-        }
+    [HttpPost("ask")]
+    public async Task<IActionResult> AskGemma(
+        [FromBody] QuestionRequest request)
+    {
+        var result = await _aiService.GenerateRecipe(request.Question);
+
+        return Ok(result);
     }
 }
 
