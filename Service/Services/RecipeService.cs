@@ -15,13 +15,15 @@ namespace Service.Services
         private readonly IRepository<Category> categoryRepository;
         private readonly IRepository<Ingredient> ingredientRepository;
         private readonly IMapper mapper;
+        private readonly MyRecipesMapper _myRecipesMapper; // 1. הוסף את המשתנה כאן
 
-        public RecipeService(IRepository<Recipe> recipeRepository, IRepository<Category> categoryRepository, IRepository<Ingredient> ingredientRepository, IMapper mapper)
+        public RecipeService(IRepository<Recipe> recipeRepository, IRepository<Category> categoryRepository, IRepository<Ingredient> ingredientRepository, IMapper mapper, MyRecipesMapper myRecipesMapper)
         {
             this.recipeRepository = recipeRepository;
             this.categoryRepository = categoryRepository;
             this.ingredientRepository = ingredientRepository;
             this.mapper = mapper;
+            _myRecipesMapper = myRecipesMapper;
         }
 
         public async Task<RecipeDto> AddItemAsync(RecipeDto item)
@@ -71,12 +73,28 @@ namespace Service.Services
             await recipeRepository.DeleteItemAsync(id);
         }
 
+        //public async Task<List<RecipeDto>> GetAllAsync()
+        //{
+        //    var recipes = await recipeRepository.GetAllAsync();
+        //    return mapper.Map<List<Recipe>, List<RecipeDto>>(recipes);
+        //}
+
         public async Task<List<RecipeDto>> GetAllAsync()
         {
             var recipes = await recipeRepository.GetAllAsync();
-            return mapper.Map<List<Recipe>, List<RecipeDto>>(recipes);
-        }
+            var recipeDtos = new List<RecipeDto>();
 
+            foreach (var r in recipes)
+            {
+                var dto = mapper.Map<RecipeDto>(r);
+
+                // כאן אנחנו קוראים למתודה הציבורית שהגדרנו ב-Mapper
+                dto.Image = await _myRecipesMapper.fromStringToByteAsync(r.ImageUrl);
+                recipeDtos.Add(dto);
+            }
+
+            return recipeDtos;
+        }
         public async Task<RecipeDto> GetByIdAsync(int id)
         {
             var recipe = await recipeRepository.GetByIdAsync(id);

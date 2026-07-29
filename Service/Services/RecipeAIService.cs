@@ -1,4 +1,7 @@
-public class RecipeAIService : IRecipeAIService
+using Microsoft.Extensions.Configuration;
+using Google.GenAI;
+
+public class RecipeAIService : IRecipeAI
 {
     private readonly string _apiKey;
 

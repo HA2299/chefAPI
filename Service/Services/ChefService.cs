@@ -19,12 +19,13 @@ namespace Service.Services
         private readonly IRepository<Chef> _repository;
         private readonly IRepository<Recipe> _recipeRepository;
         private readonly IMapper _mapper;
-
-        public ChefService(IRepository<Chef> repository, IRepository<Recipe> recipeRepository,IMapper mapper)
+        private readonly MyRecipesMapper _myRecipesMapper; // 1. הוסף את המשתנה כאן
+        public ChefService(IRepository<Chef> repository, IRepository<Recipe> recipeRepository,IMapper mapper, MyRecipesMapper myRecipesMapper)
         {
             _repository = repository;
             _recipeRepository = recipeRepository;
             _mapper = mapper;
+            _myRecipesMapper = myRecipesMapper;
         }
 
         public async Task<ChefDto> AddItemAsync(ChefDto item)
@@ -55,13 +56,41 @@ namespace Service.Services
             var chef = _mapper.Map<ChefDto, Chef>(item);
             await _repository.UpdateItemAsync(id, chef);
         }
-        public async Task<List<RecipeDto>> GetRecipesByChefIdAsync(int chefId)
-        {
+        //public async Task<List<RecipeDto>> GetRecipesByChefIdAsync(int chefId)
+        //{
+        //    var recipes = await _recipeRepository.GetAllAsync();
+        //    var filteredRecipes = recipes.Where(r => r.ChefId == chefId).ToList();
+
+        //    return _mapper.Map<List<RecipeDto>>(filteredRecipes);
+        //}
+public async Task<List<RecipeDto>> GetRecipesByChefIdAsync(int chefId)
+{
             var recipes = await _recipeRepository.GetAllAsync();
             var filteredRecipes = recipes.Where(r => r.ChefId == chefId).ToList();
+            // הדפסה ראשונית לקונסול שמתחילה את התהליך
+            Console.WriteLine($"Started processing {recipes.Count} recipes for Chef ID: {chefId}");
 
-            return _mapper.Map<List<RecipeDto>>(filteredRecipes);
+    var tasks = filteredRecipes.Select(async r => {
+        var dto = _mapper.Map<RecipeDto>(r);
+        
+        // הדפסה לכל מתכון בנפרד כדי לראות אם הוא מעובד
+        Console.WriteLine($"Processing image for recipe: {r.ImageUrl}");
+        
+        dto.Image = await _myRecipesMapper.fromStringToByteAsync(r.ImageUrl); 
+        
+        // בדיקה אם התמונה חזרה ריקה
+        if (dto.Image == null) {
+            Console.WriteLine($"Warning: Failed to load image for {r.ImageUrl}");
         }
+        
+        return dto;
+    });
+
+    var recipeDtos = await Task.WhenAll(tasks);
+    
+    Console.WriteLine("Finished processing all recipes.");
+    return recipeDtos.ToList();
+}
 
         public async Task<ChefDto> GetByUserIdAsync(int userId)
         {
